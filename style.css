@@ -1,0 +1,47 @@
+body{
+    margin:0;
+    background-color: rgb(13, 18, 24);
+}
+header{
+    background-color: gray;
+    padding: 1px 2px;
+}
+header h1{
+    text-align: center;
+    font-size: 30px;
+    /* font-family: */
+    text-shadow: 3px 5px 3px #aaa;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.centered-section{
+    width: auto;
+    text-align: center;
+}
+section article form{
+    background-color: gray;
+    margin: 1rm 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0; 
+}
+form label{
+    font-size: 22px;
+    color: whitesmoke;
+
+}
+form input{
+    border: 1px black;
+    font-size: 17px;
+}
+button{
+    transition: box-shadow 0.3s ease ;
+    margin-top: 3px;
+    font-size: 18px;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+button:hover{
+    color: rgb(13, 18, 24);
+}
