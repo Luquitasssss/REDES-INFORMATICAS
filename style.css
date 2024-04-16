@@ -63,9 +63,15 @@ footer a{
 /*     color: ; */
     
 }
-.mail{
-    padding 5px;
+.contact-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
 }
-.what{
-    padding 5px;
+
+.contact-links a {
+  padding: 10px 20px; 
+  background-color: #f0f0f0; 
+  border-radius: 5px; 
 }
+
